@@ -46,7 +46,6 @@ def run(input_directory, output_filename):
     df = count_words(df)
     save_output(df, output_filename)
 
-
 if __name__ == "__main__":
     run(
         "input",
